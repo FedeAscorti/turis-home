@@ -1,0 +1,632 @@
+/* General Styles */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Navbar Styles */
+.navbar-brand {
+    font-family: 'Krona One', sans-serif;
+    color: #012D3A;
+}
+.nav-link {
+    color: #012D3A;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+.nav-link:hover {
+    color: #F19B0C;
+}
+.language-btn {
+    border: 1px solid #F19B0C;
+    background: none;
+    color: #012D3A;
+    padding: 0.4rem 1rem;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+.language-btn:hover {
+    background-color: #F19B0C;
+    color: #fff;
+}
+
+/* Hero Section Styles */
+.hero-section {
+    padding: 4rem 0;
+}
+.text-section h1 {
+    font-family: 'Poppins';
+    font-weight: 800;
+    color: #012D3A;
+    font-size: 3.5rem;
+    text-align: left; /* Alineado a la izquierda */
+}
+.text-section p {
+    font-size: 1.2rem;
+    color: #333;
+    text-align: left; /* Alineado a la izquierda */
+}
+.custom-btn-outline {
+    border: 2px solid #FF8C00;
+    color: #012D3A;
+    border-radius: 20px;
+    padding: 0.6rem 1.5rem;
+    margin-right: 0.5rem;
+    margin-top: 10px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.custom-btn-outline:hover {
+    background-color: #FF8C00;
+    color: #fff;
+}
+.image-section img {
+    border-radius: 15px;
+    object-fit: cover;
+    max-width: 100%;
+}
+
+/* Tours Populares Section */
+
+.section-subtitle {
+    font-size: 1.5rem;
+    color: #F19B0C;
+    text-align: left; /* Alineado a la izquierda */
+    padding-left: 15px; /* Márgenes consistentes */
+}
+.section-title {
+    font-weight: bold;
+    color: #333;
+    font-size: 2.8rem;
+    margin-bottom: 30px;
+    text-align: left; /* Alineado a la izquierda */
+    padding-left: 15px; /* Márgenes consistentes */
+}
+.highlight {
+    color: #F19B0C;
+}
+
+.popular-tours-container .btn-primary {
+    background-color: #FF8C00;
+    border: none;
+    border-radius: 20px;
+    padding: 0.6rem 1.5rem;
+    transition: background-color 0.3s ease;
+}
+.popular-tours-container .btn-primary:hover {
+    background-color: #E07900;
+}
+
+/* Estilos para la tarjeta */
+.tour-card {
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.tour-card:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-top {
+    border-radius: 20px 20px 0 0;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.price {
+    font-size: 1.2rem;
+    color: #FF8C00;
+    font-weight: bold;
+    display: inline;
+}
+
+.price-info {
+    color: #6c757d;
+    font-size: 0.9rem;
+    display: inline;
+}
+
+.card-body p {
+    color: #FF8C00;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.card-body p i {
+    color: #FF8C00;
+    margin-right: 0.3rem;
+}
+
+.card-body .tour-info {
+    display: flex;
+    justify-content: start;
+    gap: 15px;
+    font-size: 0.9rem;
+    color: #666464;
+    font-weight: bold;
+}
+
+.tour-info span i {
+    color: #FF8C00;
+}
+
+
+/* Estilos de la sección viajar con nosotros  */
+.travel-section {
+    background-color: #ffffff;
+}
+
+/* Imagen con efecto superposición */
+.image-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.image-wrapper img {
+    border-radius: 20px;
+}
+
+.badge-overlay {
+    position: absolute;
+    bottom: -10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 0.9rem;
+}
+
+/* Beneficios y estilos de iconos */
+.benefits-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.benefit-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.icon-circle {
+    background-color: #ffff;
+    color: #FF8C00;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    font-size: 1.5rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.benefit-item h5 {
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+    color: #333;
+}
+
+.benefit-item p {
+    color: #6c757d;
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+/* Estilos para el carrusel de Top Destinos */
+.myTopDestinationsSwiper {
+    width: 100%;
+    height: 400px;
+}
+
+.myTopDestinationsSwiper .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.myTopDestinationsSwiper .swiper-slide img {
+    width: 280px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.myTopDestinationsSwiper .swiper-slide-active img {
+    transform: scale(1.1);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Botones de navegación */
+.swiper-button-next, .swiper-button-prev {
+    color: #FFA500;
+    transition: color 0.3s ease;
+}
+
+.swiper-button-next:hover, .swiper-button-prev:hover {
+    color: #E07900;
+}
+
+
+
+
+/* Estilos para la sección de "Quienes Somos" */
+.about-us-section {
+    background-color: #fff;
+    padding: 4rem 0;
+}
+.text-warning {
+    font-size: 1.2rem;
+}
+
+.main-image-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.main-image-wrapper img {
+    border-radius: 20px;
+    width: 100%;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.overlay-image {
+    position: absolute;
+    bottom: -20px;
+    left: 20px;
+    width: 60%; /* Ajusta este valor según prefieras */
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Estilos para los elementos estadísticos */
+.stat-item {
+    flex: 1;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.stat-item h3 {
+    color: #FF8C00;
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin-bottom: 0.2rem;
+}
+
+.stat-item p {
+    color: #6c757d;
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+/* Estilos para las tarjetas de beneficios */
+.benefit-card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 1.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15); /* Más sombra */
+    height: 100%;
+}
+
+.benefit-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.25); /* Sombra más pronunciada en hover */
+}
+
+.benefit-card i {
+    color: #FF8C00;
+    font-size: 2.5rem; /* Tamaño del ícono */
+}
+
+.benefit-card h5 {
+    font-weight: bold;
+    margin-top: 0.5rem;
+    color: #333;
+    font-size: 1rem;
+}
+/* Testimonios Carousel */
+.testimonials-carousel {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 50px 20px;
+}
+
+.testimonials-carousel .section-title {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: left; /* Alineado a la izquierda */
+}
+
+.testimonials-carousel .highlight {
+    color: #FFA500;
+}
+
+.testimonial-card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testimonial-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.testimonial-avatar {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 15px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid #FFA500;
+}
+
+.testimonial-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.testimonial-text {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.testimonial-author {
+    font-size: 1rem;
+    color: #333;
+}
+
+.rating {
+    font-size: 1.2rem;
+    color: #F39C12;
+}
+
+/* Swiper Styles */
+.swiper {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    color: #FFA500;
+    transition: color 0.3s ease;
+}
+
+.swiper-button-next:hover, .swiper-button-prev:hover {
+    color: #E07900;
+}
+
+/* Sección de Contacto */
+/* Contact Section */
+.contact-section {
+    padding: 4rem 0;
+    background-color: #ffffff; /* Fondo claro */
+}
+
+.contact-info {
+    background-color: #1b1b1b; /* Negro intenso */
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.contact-info h4 {
+    font-weight: bold;
+    color: #fff;
+}
+
+.contact-info p {
+    font-size: 0.9rem;
+    color: #bdbdbd;
+}
+
+.contact-info i {
+    color: #f19b0c;
+}
+
+.social-icons {
+    position: absolute; /* Posiciona las redes sociales dentro del card */
+    bottom: 15px; /* Ajusta la distancia desde el borde inferior */
+    left: 15px; /* Ajusta la distancia desde el borde izquierdo */
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #f19b0c;
+    transition: transform 0.3s ease;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2); /* Efecto hover */
+}
+
+.contact-form h4 {
+    font-weight: bold;
+    color: #333;
+}
+
+.contact-form .form-control {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 0.75rem;
+    font-size: 1rem;
+    color: #555;
+    background-color: #fff; /* Fondo blanco */
+}
+
+.contact-form .form-control:focus {
+    border-color: #f19b0c;
+    box-shadow: 0 0 5px rgba(241, 155, 12, 0.5);
+}
+
+.contact-form button {
+    background-color: #f19b0c;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #e07900;
+    transform: scale(1.05);
+}
+
+
+/* Footer */
+.footer {
+    background-color: #E07900;
+    color: #fff;
+    padding: 3rem 0;
+}
+
+.footer h3, .footer h5 {
+    font-weight: bold;
+    color: #fff;
+}
+
+.footer p {
+    color: #f5f5f5;
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+}
+
+.footer .btn-outline-light {
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 20px;
+    padding: 0.6rem 1.5rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+}
+
+.footer .btn-outline-light:hover {
+    background-color: #fff;
+    color: #FF8C00;
+    transform: scale(1.1);
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 0.5rem;
+    color: #f5f5f5;
+    font-size: 0.95rem;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #f5f5f5;
+    transition: color 0.3s ease;
+}
+
+.footer ul li a:hover {
+    color: #fff;
+}
+
+.footer .social-icons a {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-right: 1rem;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.footer .social-icons a:hover {
+    color: #F19B0C;
+    transform: scale(1.2);
+}
+
+
+
+/* Responsive Media Queries */
+@media (max-width: 992px) {
+    .text-section h1 {
+        font-size: 3rem;
+    }
+    .hero-section .image-section img, /* Imagen de la sección Hero */
+    .about-us-section .main-image-wrapper img { /* Imagen de la sección Quienes Somos */
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Mantener el título y descripción en la parte superior izquierda */
+    .travel-section .col-lg-6:first-child {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+    }
+    .carousel-container #carousel-thumbs img {
+        border-width: 3px;
+    }
+
+    /* Imagen y texto en disposición vertical */
+    .travel-section .row {
+        flex-direction: column;
+    }
+
+    .image-wrapper {
+        margin-bottom: 1.5rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .image-wrapper img {
+        height: 200px;
+        width: 100%;
+        max-width: 100%;
+        object-fit: cover;
+    }
+
+    .benefits-list {
+        padding: 0;
+        width: 100%;
+        text-align: left;
+    }
+
+}
+
+
+@media all and (min-width: 576px) {
+    .carousel-container #carousel-thumbs {
+    position: absolute;
+    }
+}
+@media all and (max-width: 576px) {
+    .carousel-container #carousel-thumbs {
+    background: #ccccce;
+    }
+}
